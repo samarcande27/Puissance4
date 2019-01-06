@@ -38,15 +38,13 @@ static void displayGrid(void)
     // affichage de l'entête de colonnes
     printf("   ");
     for (col = 0; col < NB_COL; col++)
-    {
-            printf("  %d ",col+1);
-    }
+        printf("  %d ",col+1);
+    
     printf("\n   ");
 
     for (col = 0; col < NB_COL; col++)
-    {
-            printf("----");
-    }
+        printf("----");
+    
     printf("-\n");
 
     for (lgn = 0; lgn < NB_LGN; lgn++)
@@ -61,9 +59,8 @@ static void displayGrid(void)
     }
     printf("   ");
     for (col = 0; col < NB_COL; col++)
-    {
-            printf("----");
-    }
+        printf("----");
+    
     printf("-");
 }
 
