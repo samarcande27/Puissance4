@@ -17,7 +17,7 @@
 #define PLAYER2 (2) // Player 2 joue avec les O
 #define EMPTY_VALUE (' ')
 
-
+// Stockage de la grille du Puissance 4
 static char Grid [NB_LGN][NB_COL];
 
 // intialise la grille à ' '
